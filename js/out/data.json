@@ -4,7 +4,9 @@
         "app\\login.js": {
             "name": "app\\login.js",
             "modules": {},
-            "classes": {},
+            "classes": {
+                "Login": 1
+            },
             "fors": {},
             "namespaces": {}
         },
@@ -27,6 +29,27 @@
     },
     "modules": {},
     "classes": {
+        "Login": {
+            "name": "Login",
+            "shortname": "Login",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "app\\login.js",
+            "line": 13,
+            "description": "A Login Module",
+            "params": [
+                {
+                    "name": "config",
+                    "description": "Object literal specifying widget configuration properties.",
+                    "type": "Object"
+                }
+            ],
+            "is_constructor": 1,
+            "extends": "Object"
+        },
         "Main": {
             "name": "Main",
             "shortname": "Main",
@@ -56,7 +79,7 @@
             "description": "The initialization event",
             "itemtype": "event",
             "name": "login.init",
-            "class": "Main"
+            "class": "Login"
         },
         {
             "file": "app\\login.js",
@@ -64,7 +87,7 @@
             "description": "The render event",
             "itemtype": "event",
             "name": "login.render",
-            "class": "Main"
+            "class": "Login"
         },
         {
             "file": "app\\login.js",
@@ -72,7 +95,7 @@
             "description": "The log in succeeded event",
             "itemtype": "event",
             "name": "login.success",
-            "class": "Main"
+            "class": "Login"
         },
         {
             "file": "app\\login.js",
@@ -80,7 +103,7 @@
             "description": "The log in failed event",
             "itemtype": "event",
             "name": "login.fail",
-            "class": "Main"
+            "class": "Login"
         },
         {
             "file": "app\\main.js",

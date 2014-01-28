@@ -15,7 +15,7 @@ define(["jquery", "pubsub"], function loginDefine ($) {
 	 *
 	 * @param config {Object} Object literal specifying widget configuration properties.
 	 *
-	 * @class Main
+	 * @class Login
 	 * @constructor
 	 * @extends Object
 	 *
