@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>PubSub Sample</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="Kevin Isom">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+	<div class="login"></div>
+  <script src="/js/require.js"></script>
+  <script src="/js/config.js"></script>
+
+
+  <script>
+    require(["app/main"], function(Main) {
+        var m = new Main();
+        m.init();
+    });
+  </script>
+</body>
+</html>

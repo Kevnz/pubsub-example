@@ -1,0 +1,14 @@
+{
+  "name": "pubsub",
+  "version": "0.0.1",
+  "description": "PubSub demo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "static-cling": "~0.1.6"
+  }
+}
